@@ -8,7 +8,7 @@
   <div class="view-box">
     <div id="toolbar">限制允许拖动的范围</div>
     <div class="container">
-      <vue-drag-resize
+      <VueDragReSize
         :drag-handle="'.drag-handle'"
         :x="100"
         :y="100"
@@ -35,8 +35,8 @@
             <video src="https://static.gausszhou.top/data/video/h264/Dyson_Ball_264.mp4" controls></video>
           </div>
         </div>
-      </vue-drag-resize>
-         <vue-drag-resize
+      </VueDragReSize>
+         <VueDragReSize
         :drag-handle="'.drag-handle'"
         :x="400"
         :y="400"
@@ -63,7 +63,7 @@
             <iframe src="//gausszhou.top" frameborder="0"></iframe>
           </div>
         </div>
-      </vue-drag-resize>
+      </VueDragReSize>
     </div>
   </div>
 </template>
