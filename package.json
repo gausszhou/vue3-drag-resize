@@ -1,6 +1,6 @@
 {
   "name": "@gausszhou/vue3-drag-resize",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0-beta.2",
   "description": "A Component for Vue.js 3.0",
   "author": "gausszhou <gausszhou@qq.com>",
   "main": "lib/bundle.esm.js",
@@ -13,6 +13,11 @@
   "files": [
     "/lib/*.{js,css}"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gausszhou/vue3-drag-resize.git"
+  },
+  "homepage": "https://github.com/gausszhou/vue3-drag-resize#readme",
   "scripts": {
     "dev": "node prebuild.js && vue-cli-service serve",
     "build": "node prebuild.js && vue-cli-service build",
