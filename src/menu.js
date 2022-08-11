@@ -4,7 +4,8 @@ export default [
     icon: "el-icon-menu",
     children: [
       { route: "basic-basic-component", label: "基本组件" },
-      { route: "basic-with-drag-handle", label: "限制允许拖动的范围 " }
+      { route: "basic-with-drag-handle", label: "限制允许拖动的范围 " },
+      { route: "basic-with-inner-iframe", label: "内嵌 <iframe/>" }
     ]
   }
 ];

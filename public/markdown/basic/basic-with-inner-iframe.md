@@ -1,6 +1,6 @@
-# 带拖动句柄的基本组件
+## 嵌套 iframe 
 
-一个基本组件，只能通过一个句柄拖动，由prop <b>`drag-handle` </b>和一个有效的CSS选择器来指定，只能通过该DOM元素来拖动组件。
+由于鼠标事件在另一个iframe中将无法被响应，因此需要针对嵌入 iframe 的情况做特殊处理
 
 
 ```html
@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="window-body">
-            <video src="https://static.gausszhou.top/data/video/h264/Dyson_Ball_264.mp4" controls></video>
+            <iframe src="//gausszhou.top" frameborder="0"></iframe>
           </div>
         </div>
       </VueDragReSize>
