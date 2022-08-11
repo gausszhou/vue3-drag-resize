@@ -21,11 +21,9 @@ import VueDragReSize from "./components/vue-drag-resize/index.vue";
 
 app.component("VueDragReSize", VueDragReSize);
 
-
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component);
 }
-
 
 app.use(router);
 app.use(ElementPlus);

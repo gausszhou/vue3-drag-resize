@@ -11,7 +11,7 @@ const plugin = {
   install
 };
 
-// script 
+// script
 let GlobalVue = null;
 if (typeof window !== "undefined") {
   GlobalVue = window.Vue;

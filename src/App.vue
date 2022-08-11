@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="menu" :style="style">
-      <el-menu  :default-active="active">
+      <el-menu :default-active="active">
         <el-sub-menu v-for="(item, index) in menuData" :key="index" :index="index + 1 + ''">
           <template #title>
             <i :class="item.icon"></i>
@@ -85,10 +85,10 @@ export default {
       });
     },
     handleDragBarEvent() {
-      this.$refs.dragBar.onmousedown = ()=> {
+      this.$refs.dragBar.onmousedown = () => {
         this.isDrag = true;
       };
-      document.onmouseup = ()=> {
+      document.onmouseup = () => {
         this.isDrag = false;
       };
       document.onmousemove = e => {
@@ -108,7 +108,9 @@ export default {
             try {
               let preCode = hljs.highlight(lang, str, true).value;
               return preCode;
-            } catch (e) {console.log(e)}
+            } catch (e) {
+              console.log(e);
+            }
           }
         }
       });

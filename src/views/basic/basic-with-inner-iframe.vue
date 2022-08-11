@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="window-body">
-            <video src="https://static.gausszhou.top/data/video/h264/Dyson_Ball_264.mp4" controls></video>
+            <iframe src="//gausszhou.top" frameborder="0"></iframe>
           </div>
         </div>
       </VueDragReSize>

@@ -28,12 +28,9 @@ const routes = [
   }
 ];
 
-
-const router =createRouter({
+const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL || "/vue3-drag-resize/"),
   routes
 });
 
 export default router;
-
-
